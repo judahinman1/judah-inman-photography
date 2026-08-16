@@ -18,6 +18,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link href="https://fonts.googleapis.com/css2?family=Signika:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@700&display=swap" rel="stylesheet">
   <!-- End - Fonts -->
 </head>
 
@@ -27,8 +28,8 @@
   <header class="flex w-full overflow-hidden pt-10 pb-1">
     <nav id="nav" x-data="{ open: false }" role="navigation" class="w-full">
       <div class="container mx-auto flex flex-wrap items-center md:flex-no-wrap">
-        <div class="mr-4 md:mr-8">
-          <a href="../" class="text-2xl font-signika font-bold">INMAN.PHOTO</a>
+         <div class="mr-4 md:mr-8">
+          <a href="/" class="text-3xl font-lora font-bold">INMAN.PHOTO</a>
         </div>
         <div class="ml-auto md:hidden flex items-center justify-start">
           <button onclick="menuToggle()" @click="open = !open"
@@ -126,8 +127,11 @@
     <div class="max-w-screen-xl py-16 mx-auto">
       <div class="grid grid-cols-1 gap-8 text-center mx-auto">
         <div>
-          <p class="font-signika"><b>INMAN.PHOTO</b>
-            <br />BY JUDAH INMAN</p>
+          <p class="text-xl font-lora font-bold">INMAN.PHOTO</p>
+            <p class="font-signika">BY JUDAH INMAN</p>
+          <p class="mt-4 text-sm text-gray-600 dark:text-gray-300">
+            San Clemente CA<br />(949) 249- 8022
+          </p>
           <p class="mt-4 text-sm text-gray-600 dark:text-gray-300">
             San Clemente CA<br />(949) 249- 8022
           </p>
