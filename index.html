@@ -18,6 +18,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link href="https://fonts.googleapis.com/css2?family=Signika:wght@400;700&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Lora:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
   <!-- End - Fonts -->
   <!-- Start - Fancybox Scripts -->
   <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
@@ -82,7 +83,7 @@
               </a>
             </li>
             <li class="group transition duration-300">
-              <a href="/about/" class="font-signika text-2xl tap-highlight-transparent">ABOUT ME
+              <a href="#about"  class="font-signika text-2xl tap-highlight-transparent">ABOUT ME
                 <span
                   class="hidden md:block max-w-0 group-hover:max-w-full transition-all duration-500 h-0.5 bg-black dark:bg-white"></span>
               </a>
@@ -98,9 +99,10 @@
       </div>
     </nav>
   </header>
-  <!-- Content -->
+  <!-- Photo Content -->
   <div class="container mx-auto">
-    <h1 class="text-4xl pt-10 pb-8 font-bold">PORTFOLIO</h1>
+    <!-- <h1 class="text-4xl pt-10 pb-8 font-bold">PORTFOLIO</h1> -->
+    <h1 class="text-4xl pt-10 pb-8 font-bold"></h1>
     <section class="text-neutral-700">
       <div class="container w-full">
         <div class="flex flex-wrap w-full">
@@ -299,9 +301,121 @@
       </div>
     </section>
   </div>
+  <!-- About Me Content -->
+  <div class="container mx-auto">
+    <!-- <h1 class="text-4xl pt-10 pb-8"><b>ABOUT ME:</b></h1> -->
+    <h1 id="about" class="text-4xl pt-10 pb-8"><b></b></h1>
+    <div class="grid grid-cols-2 gap-14 md:gap-20">
+      <div class="col-span-2 md:col-span-1">
+        <div
+          class="bg-white dark:bg-neutral-900 p-5 pb-28 m-6 md:m-12 shadow-lg border border-gray-100 dark:border-neutral-800 hover:rotate-0 transition duration-500 -rotate-6 relative">
+          <img src="/dist/assets/Avatar.JPG" alt="A warm self portrait of Judah Inman, sitting on a couch with his camera in hand"
+            class="smooth-edges flex flex-col w-full aspect-square object-cover h-auto" />
+          <div class="absolute bottom-0 left-0 right-0 text-center">
+            <p class="text-gray-800 dark:text-slate-200 pb-7 h-full text-6xl font-nothingyoucoulddo">me</p>
+          </div>
+        </div>
+
+      </div>
+      <section class="font-normal text-center text-base md:text-start mx-3 col-span-2 md:col-span-1 my-auto">
+        <div class="block md:hidden">
+          <p class="text-2xl font-serif font-bold mb-1">Hello there,</p>
+          <p class="text-2xl font-serif font-bold mb-6">I'm Judah <span class="animate-wave">👋</span></p>
+        </div>
+        <p class="hidden md:block text-3xl font-serif font-bold mb-6">Hello there, I'm Judah
+          <span class="animate-wave">👋</span>
+        </p>
+        <p class="mb-4">
+          I'm an Orange County-based photographer with 2+ years of
+          experience capturing events and the unique moments that
+          make them memorable. What started with picking up an old
+          camera has grown into a passion for capturing genuine, authentic moments.
+          I try to stay unobtrusive and let things happen naturally, while always
+          looking for unique and creative shots that tell the story of what's happening.
+        </p>
+        <p class="mb-4">
+          When I'm not behind the camera, you'll usually find me swimming
+          at the beach or editing photos at San Clemente's local coffee shops.
+          Photography has become a big part of my life, and I love getting to
+          meet new people, experience different events, and find moments that
+          might otherwise go unnoticed.
+        </p>
+        <p>
+          If you have an event you'd like captured, I'd love to be there. Whether
+          it's a concert, sporting event, or community event, I'll be there to
+          capture the genuine moments as they happen. Reach out to book a shoot
+          or to talk about what you're looking for. I'd love to hear about your
+          event and see how I can help tell its story through photos.
+        </p>
+      </section>
+    </div>
+  </div>
+  <!-- Services Content -->
+   <div class="container mx-auto">
+    <h1 id="services" class="text-4xl pt-28 pb-12"><b>SERVICES</b></h1>
+    <div class="grid grid-cols-3 gap-8 md:gap-16">
+      <div class="col-span-3 md:col-span-1 flex flex-col gap-8 md:gap-4">
+        <div
+          class="bg-white dark:bg-neutral-900 p-5 pb-16 mx-6 md:m-4 shadow-lg border border-gray-100 dark:border-neutral-800 relative w-3/4 md:w-auto mx-auto">
+          <img src="/dist/assets/SportsEvents.jpg" alt="A warm self portrait of Judah Inman, sitting on a couch with his camera in hand"
+            class="smooth-edges w-full aspect-square object-cover h-auto" />
+          <div class="absolute bottom-0 left-0 right-0 text-center">
+            <p class="text-gray-800 dark:text-slate-200 pb-4 h-full text-3xl font-nothingyoucoulddo">Sports Events</p>
+          </div>
+        </div>
+        <div
+          class="bg-white dark:bg-neutral-900 p-5 pb-16 mx-6 md:m-4 shadow-lg border border-gray-100 dark:border-neutral-800 relative w-3/4 md:w-auto mx-auto">
+          <img src="/dist/assets/GrandOpenings.jpg" alt="A warm self portrait of Judah Inman, sitting on a couch with his camera in hand"
+            class="smooth-edges w-full aspect-square object-cover h-auto" />
+          <div class="absolute bottom-0 left-0 right-0 text-center">
+            <p class="text-gray-800 dark:text-slate-200 pb-4 h-full text-3xl font-nothingyoucoulddo">Grand Openings</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-span-3 md:col-span-1 flex flex-col gap-8 md:gap-4">
+        <div
+          class="bg-white dark:bg-neutral-900 p-5 pb-16 mx-6 md:m-4 shadow-lg border border-gray-100 dark:border-neutral-800 relative w-3/4 md:w-auto mx-auto">
+          <img src="/dist/assets/LiveMusic.jpg" alt="A warm self portrait of Judah Inman, sitting on a couch with his camera in hand"
+            class="smooth-edges w-full aspect-square object-cover h-auto" />
+          <div class="absolute bottom-0 left-0 right-0 text-center">
+            <p class="text-gray-800 dark:text-slate-200 pb-4 h-full text-3xl font-nothingyoucoulddo">Live Music</p>
+          </div>
+        </div>
+        <div
+          class="bg-white dark:bg-neutral-900 p-5 pb-16 mx-6 md:m-4 shadow-lg border border-gray-100 dark:border-neutral-800 relative w-3/4 md:w-auto mx-auto">
+          <img src="/dist/assets/SpecialEvents.jpg" alt="A warm self portrait of Judah Inman, sitting on a couch with his camera in hand"
+            class="smooth-edges w-full aspect-square object-cover h-auto" />
+          <div class="absolute bottom-0 left-0 right-0 text-center">
+            <p class="text-gray-800 dark:text-slate-200 pb-4 h-full text-3xl font-nothingyoucoulddo">Special Events</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-span-3 md:col-span-1 flex flex-col gap-8 md:gap-4">
+        <div
+          class="bg-white dark:bg-neutral-900 p-5 pb-16 mx-6 md:m-4 shadow-lg border border-gray-100 dark:border-neutral-800 relative w-3/4 md:w-auto mx-auto">
+          <img src="/dist/assets/Community Events.jpg" alt="A warm self portrait of Judah Inman, sitting on a couch with his camera in hand"
+            class="smooth-edges w-full aspect-square object-cover h-auto" />
+          <div class="absolute bottom-0 left-0 right-0 text-center">
+            <p class="text-gray-800 dark:text-slate-200 pb-4 h-full text-3xl font-nothingyoucoulddo">Community Events</p>
+          </div>
+        </div>
+        <div
+          class="bg-white dark:bg-neutral-900 p-5 pb-16 mx-6 md:m-4 shadow-lg border border-gray-100 dark:border-neutral-800 relative w-3/4 md:w-auto mx-auto">
+          <img src="/dist/assets/And More.jpg" alt="A warm self portrait of Judah Inman, sitting on a couch with his camera in hand"
+            class="smooth-edges w-full aspect-square object-cover h-auto" />
+          <div class="absolute bottom-0 left-0 right-0 text-center">
+            <p class="text-gray-800 dark:text-slate-200 pb-4 h-full text-3xl font-nothingyoucoulddo">And More</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <a href="/contact" class="block text-3xl pt-20 pb-0 text-center font-lora"><b><u>Contact Me</u></b></a>
+    <a href="/contact" class="block text-2xl pt-1 pb-0 text-center font-lora"><b>For Booking Inquiries</b></a>
+  </div>
+  </div>
   <!-- Footer -->
   <footer>
-    <div class="max-w-screen-xl py-16 mx-auto">
+    <hr class="w-1/3 h-0.5 mx-auto max-w-screen-xl my-12 border-0 bg-black dark:bg-white">
       <div class="grid grid-cols-1 gap-8 text-center mx-auto">
         <div>
           <p class="text-xl font-lora font-bold">INMAN.PHOTO</p>
